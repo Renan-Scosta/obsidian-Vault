@@ -1,6 +1,3 @@
-# Meu "Segundo Cérebro" Através do Obsidian
-
-Aqui contém Materiais, conteúdo e Anotações de tudo que estudei Sobre computação e outros Assuntos nos últimos 10 meses (com algumas pausas, é verdade) 
 
 ## Por que o Obsidian?
 
