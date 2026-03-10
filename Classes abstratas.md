@@ -6,6 +6,10 @@ ___
 
 # Classes abstratas 
 
+Uma classe abstrata é uma classe que serve de modelo para outras classes (subclasses). 
+Ela sempre será uma superclasse genérica, e suas subclasses serão
+mais especificas. Além disso, ela não pode ser instanciada e pode conter ou não métodos abstratos, podendo ser implementados nas classes descendentes.
+
 - São classes que não podem ser instanciadas
 
 - É uma forma de garantir herança total: somente subclasses não abstratas podem ser instanciadas, mas nunca a superclasse abstrata

@@ -34,3 +34,8 @@ Um **LinkedHashMap** é uma estrutura de dados que armazena **pares chave-valor*
 - Levemente mais lento e consome mais memória que `HashMap` (por causa da lista ligada).
     
 - Como o `HashMap`, **permite uma chave nula**, mas só uma.
+
+
+# Código exemplo:
+
+![[Pasted image 20250424124115.png]]

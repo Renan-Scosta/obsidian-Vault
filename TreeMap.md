@@ -13,18 +13,18 @@ Um **TreeMap** é uma estrutura de dados que também armazena **pares chave-valo
 ### 🔧 **Como funciona?**
 
 - As chaves são armazenadas de forma **ordenada**.
-    
+
 - Cada inserção ou remoção **mantém a ordem** e o **balanceamento** da árvore.
-    
+
 - A ordenação pode ser **natural** (ex: ordem alfabética ou numérica) ou baseada em um **comparador customizado**.
 
 
 ### ✅ **Vantagens**
 
 - Mantém os elementos **ordenados por chave**.
-    
+
 - Permite buscas por **intervalos** (ex: de X até Y).
-    
+
 - Ideal quando você precisa de **ordenação natural**.
 
 
@@ -33,3 +33,8 @@ Um **TreeMap** é uma estrutura de dados que também armazena **pares chave-valo
 - Mais **lento** que um HashMap para operações simples (por ser O(log n)).
     
 - Não permite **chaves nulas** (em Java, por exemplo).
+
+
+# Código exemplo:
+
+![[Pasted image 20250424121438.png]]

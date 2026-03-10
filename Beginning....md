@@ -4,7 +4,6 @@
 **links internos:** 
 ___
 
-# Academic Life
 
 [[Daily routine of studies]]
 

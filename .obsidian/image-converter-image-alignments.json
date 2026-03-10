@@ -1,0 +1,196 @@
+{
+  "Evolução histórica dos sistemas operacionais.md": {
+    "99284bb1bc3d2cd7305070c18d04de37": {
+      "position": "right",
+      "width": "",
+      "height": "",
+      "wrap": true
+    },
+    "390985a1d0953f982894cc9b1dc4b9ce": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "289cb1c6e3b5415dd6701ff812c7ef3e": {
+      "position": "right",
+      "width": "",
+      "height": "",
+      "wrap": true
+    }
+  },
+  "Tipos de Sistemas operacionais.md": {
+    "a91deb3a75f19fa6393ac75c718391ec": {
+      "position": "right",
+      "width": "361px",
+      "height": "279px",
+      "wrap": true
+    },
+    "7f5a6447412d1bf6f1a8c14c27c5d0f8": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f24f1fbadf345d750e9d2fe70756e825": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "5666a3c938ecfb862b2bcc136e423ba5": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "c4318a0088974816c96e316f560ceca3": {
+      "position": "right",
+      "width": "415px",
+      "height": "260px",
+      "wrap": true
+    },
+    "2e5632fa80b4b1abaa03d6efceae9eed": {
+      "position": "right",
+      "width": "403px",
+      "height": "234px",
+      "wrap": true
+    },
+    "73aa303c908ba239f185aa74e067163c": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "3c054cdb93ecc52777d84c2924a58eec": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "209bd577dd1fe2bd4b678e742d051c4d": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "fa002e6ebb347ce41a113f7cba6f6c0e": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Criando threads com as classes Thread e Runnable.md": {
+    "23c2bee6a808763eb0e3ae243f3ca215": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Lidando com CONCORRÊNCIA usando SYNCHRONIZED.md": {
+    "29f29aa5179181dd1611e9564893f024": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1f967278d1096c00c3135252940688ce": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f169d9fad7f642fddd60acb718ba8167": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a0d284c04b0e85eb3cb3e693a45f3f5b": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "O Papel dos Repositories.md": {
+    "55eea68521887e345c7bdfce628c85b7": {
+      "position": "center",
+      "width": "565px",
+      "height": "208px",
+      "wrap": false
+    }
+  },
+  "Conceitos básicos de Sistemas Operacionais.md": {
+    "c94c6ef68daffcae1e3e926338a11151": {
+      "position": "right",
+      "width": "",
+      "height": "",
+      "wrap": true
+    },
+    "6759c0ee145b6502931e005884579ab3": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "3e530e2d9429a12656b47a2eeb5de1c8": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": true
+    }
+  },
+  "Processos e Gerencia de Processador.md": {
+    "f31b4f9f85c9906f9a96007ed8c205b8": {
+      "position": "center",
+      "width": "586px",
+      "height": "225px",
+      "wrap": false
+    },
+    "9c4968a2427d09d624c0596b425b1602": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "690c92a608e48dfbaf503d670bca8703": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a1ee1c6f678172c73cf5089d30be0ccc": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8a85047c208c849447892811f5e3d935": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "734276066588b01f9e463a1a4962cbca": {
+      "position": "right",
+      "width": "",
+      "height": "",
+      "wrap": true
+    },
+    "5f3af75699d32347aa4410ec4b131179": {
+      "position": "left",
+      "width": "666px",
+      "height": "767px",
+      "wrap": false
+    },
+    "0f052dde8d7189362ea3061a21ca0787": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  }
+}

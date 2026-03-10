@@ -10,11 +10,16 @@ ___
 
 #### [[Para que serve o Java]]
 
+---
+
 # Como Java funciona 
 
 #### [[Do código a execução.. a magia do JVM]]
 
 #### [[O ciclo de vida de um programa Java]]
+
+---
+
 # Estrutura de Dados e Sintaxe
 
 #### [[Tipos de dados e Variáveis]]
@@ -24,6 +29,8 @@ ___
 #### [[Loops]] 
 
 #### [[StringBuilder]] 
+
+---
 
 # Orientação a Objetos
 
@@ -53,9 +60,13 @@ ___
 #### [[Classes e Métodos final]]
 #### [[Polimorfismo]]
 
+#### [[Interfaces Java]]
 #### [[Classes abstratas]]
 
 #### [[Métodos abstratos]] 
+
+---
+
 # Comportamento de memória
 
 #### [[Tipo referência  x  Tipo valor]] 
@@ -70,8 +81,15 @@ ___
 
 #### [[Matrizes]]
 
+---
+
 # Coleções - Collections
+
+##### [[Generics em Java]]
+##### [[hashCode e equals em Java]]
 ##### [[o que é collections em Java]]
+
+#### [[Array em Java]]
 
 #### [[List - listas]] 
 
@@ -81,9 +99,13 @@ ___
 
 #### [[Set]]
 
+---
+
 # Tópicos especiais Java
 
 #### [[Data-Hora Java]]
+
+---
 
 # Enumerações e Composição
 
@@ -91,7 +113,9 @@ ___
 
 #### [[Um pouco sobre Design em Java]]
 
-#### [[Composição]]
+#### [[Composição e Agregação]]
+
+---
 
 # Tratamento de exceções 
 
@@ -105,6 +129,8 @@ ___
 
 #### [[Criando exceções personalizadas]]  
 
+---
+
 # Trabalhando com arquivos
 
 #### [[Lendo arquivo texto com as classes File Scanner]]
@@ -113,32 +139,63 @@ ___
 
 #### [[Bloco try-with-resources]] 
 
+#### [[Manipulando pastas com File]]
 
+#### [[Informacoes do caminho do arquivo]]
 
+---
 
+# Concorrência em Java
 
+#### [[Introdução a MULTITHREAD]] 
 
+#### [[O que torna algo thread-safe]]
 
+#### [[Criando threads com as classes Thread e Runnable]] 
 
+#### [[Lidando com CONCORRÊNCIA usando SYNCHRONIZED]]
 
+#### [[Sincronizando coleções de forma certa]] 
 
+#### [[evite synchronized usando operações ATÔMICAS]]
 
+---
 
+# Padrões de projetos (Design partterns)
 
+#### [[Introdução a padrões de projetos (design partterns)]] 
 
+#### [[Padrões criacionais de projeto]] 
 
+#### [[Padrões comportamentais de projeto]]
 
+---
 
+# Acesso a Dados com JDBC
 
+#### [[Introdução ao JDBC]]
 
+#### [[APIs como Connection, Statement e ResultSet]]
 
+---
 
+# API RESTFul com Spring Boot (todosimple)
 
+#### [[O que são APIs REST]]  
 
+#### [[O que é Spring Boot]]
 
+#### [[O que é MVC]] 
 
+#### [[Projeto todosimple usando Spring Boot]]
 
+#### [[Annotations @Entity e @Table]]
 
+#### [[Annotations @Id, @GeneratedValues e @Column]]
 
+#### [[O papel dos models]] 
 
+#### [[O Papel dos Repositories]]
+
+---
 

@@ -3,7 +3,9 @@
   "propertiesInDocument": "visible",
   "alwaysUpdateLinks": true,
   "livePreview": true,
-  "defaultViewMode": "preview",
+  "defaultViewMode": "source",
   "useMarkdownLinks": false,
-  "attachmentFolderPath": "ARQUIVOS/Imagens"
+  "attachmentFolderPath": "Arquivos/Imagens",
+  "showLineNumber": false,
+  "spellcheck": false
 }

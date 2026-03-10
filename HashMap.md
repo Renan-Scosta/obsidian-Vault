@@ -35,3 +35,14 @@ Um **HashMap** é uma estrutura de dados que armazena **pares chave-valor**. Ele
     
 - Precisa de uma boa função hash.
 
+
+
+# Código exemplo:
+
+![[Pasted image 20250424121132.png]]
+
+![[Pasted image 20250424121210.png]]
+
+![[Pasted image 20250424121238.png]]
+
+![[Pasted image 20250424121303.png]]

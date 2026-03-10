@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "32f120b9bf014f17",
+    "id": "96f68d4a053869b5",
     "type": "split",
     "children": [
       {
-        "id": "b7d108fb7e7aed16",
+        "id": "c11ac33a199400a9",
         "type": "tabs",
         "children": [
           {
-            "id": "d969068e8b68ac63",
+            "id": "87c5609a09be4b59",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -25,7 +25,7 @@
             }
           },
           {
-            "id": "b010d5fb950b2dd3",
+            "id": "cc76ac3e134a4de7",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -42,49 +42,69 @@
             }
           },
           {
-            "id": "2c5d2428d04de7d1",
+            "id": "57f8c5c1aff871b1",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Set.md",
+                "file": "Sistemas Operacionais.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "Set"
+              "title": "Sistemas Operacionais"
+            }
+          },
+          {
+            "id": "7892190e69eb48c1",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Processos e Gerencia de Processador.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Processos e Gerencia de Processador"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "a0949a003c67ace1",
+    "id": "0b49493e91da824a",
     "type": "split",
     "children": [
       {
-        "id": "3e50c4f5bdd02a7a",
+        "id": "c9e54eb3510b2998",
         "type": "tabs",
+        "dimension": 62.026726057906465,
         "children": [
           {
-            "id": "13f912462f8ddc18",
+            "id": "3cdc3d8188cdfb32",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime",
+                "sortOrder": "byModifiedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
+              "title": "Files"
             }
           },
           {
-            "id": "8486706ef40a7202",
+            "id": "76e6b69e92a44dc7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -97,27 +117,28 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Procurar"
+              "title": "Search"
             }
           },
           {
-            "id": "7017eb0482a1bb6d",
+            "id": "8e2716e65ec26355",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Marcadores"
+              "title": "Bookmarks"
             }
           }
         ]
       },
       {
-        "id": "78d2efceb64ccb41",
+        "id": "41e96835f82df330",
         "type": "tabs",
+        "dimension": 37.97327394209354,
         "children": [
           {
-            "id": "2d921599adc13844",
+            "id": "22b16c85db88d6b9",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -130,73 +151,58 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278,
+    "width": 300,
     "collapsed": true
   },
   "right": {
-    "id": "38ecac0024270be7",
+    "id": "5e26a0c207fcd142",
     "type": "split",
     "children": [
       {
-        "id": "a6112fa600b6ab06",
+        "id": "978e64ce8a3674d4",
         "type": "tabs",
         "children": [
           {
-            "id": "82e9042392187cba",
+            "id": "5f76abffd7182638",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💠DASHBOARD/💠ATLAS.md",
-                "collapseAll": true,
+                "file": "Sincronizando coleções de forma certa.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para 💠ATLAS"
+              "title": "Backlinks for Sincronizando coleções de forma certa"
             }
           },
           {
-            "id": "a23086ec3de2e5e6",
+            "id": "c9ad7ce4043a1221",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmos e Estruturas de Dados.md",
+                "file": "Sincronizando coleções de forma certa.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para Algoritmos e Estruturas de Dados"
+              "title": "Outgoing links from Sincronizando coleções de forma certa"
             }
           },
           {
-            "id": "7fb60e2ad6cf6303",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "💠DASHBOARD/💠ATLAS.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Sumário de 💠ATLAS"
-            }
-          },
-          {
-            "id": "f956d98260316784",
+            "id": "c9207816c09a0c3f",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": false,
+                "sortOrder": "frequency",
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -205,89 +211,98 @@
             }
           },
           {
-            "id": "10b57345258b87f5",
+            "id": "b1130792b31d1e15",
             "type": "leaf",
             "state": {
               "type": "all-properties",
               "state": {
                 "sortOrder": "frequency",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "Todas as propriedades"
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "a7e01b198324b28a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Sincronizando coleções de forma certa.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Sincronizando coleções de forma certa"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 416,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "random-note:Abrir nota aleatória": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "bases:Create new base": false,
+      "callout-manager:Insert Callout": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "2c5d2428d04de7d1",
+  "active": "7892190e69eb48c1",
   "lastOpenFiles": [
-    "Set.md",
-    "Java.md",
-    "o que é collections em Java.md",
-    "Arquivos/Imagens/Pasted image 20250415092007.png",
-    "Fila - Queue/Queue - Filas.md",
-    "Excalidraw/Drawing 2025-04-15 08.59.11.excalidraw.md",
+    "Arquivos/Imagens/image-37.png",
+    "Arquivos/Imagens/image-36.png",
+    "Arquivos/Imagens/image-35.png",
+    "Arquivos/Imagens/image-34.png",
+    "Arquivos/Imagens/image-33.png",
+    "Untitled.md",
+    "Processos e Gerencia de Processador.md",
+    "Arquivos/Imagens/image-32.png",
+    "Arquivos/Imagens/image-31.png",
+    "Arquivos/Imagens/image-30.png",
+    "Arquivos/Imagens/image-29.png",
+    "Arquivos/Imagens/image-28.png",
+    "Arquivos/Imagens/image-27.png",
+    "PID.md",
+    "multiprocessador.md",
+    "Contador de instruções.md",
+    "Espaço de endereçamento.md",
+    "Sistemas Operacionais.md",
+    "Sistema multiprogramável.md",
+    "Conceitos básicos de Sistemas Operacionais.md",
+    "Tipos de Sistemas operacionais.md",
+    "Evolução histórica dos sistemas operacionais.md",
+    "Conceitos básicos de SO.md",
+    "Conceito básico de Sistema Computacional.md",
     "💠DASHBOARD/💠ATLAS.md",
-    "ArrayDeque.md",
-    "Map.md",
-    "HashMap.md",
+    "Sincronizando coleções de forma certa.md",
+    "Java.md",
+    "ZETTELS/2026-03-06.md",
+    "evite synchronized usando operações ATÔMICAS.md",
+    "Project Life.md",
+    "ZETTELS/2026-03-04.md",
+    "ZETTELS/2026-03-05.md",
     "TreeMap.md",
-    "LinkedHashMap.md",
-    "List - listas.md",
-    "LinkedList.md",
-    "ArrayList.md",
-    "Excalidraw/Drawing 2025-04-14 10.06.42.excalidraw.md",
-    "PriorityQueue.md",
-    "Arquivos/Imagens/Pasted image 20250414103426.png",
-    "Arquivos/Imagens/Pasted image 20250414102340.png",
-    "Arquivos/Imagens/Pasted image 20250414102328.png",
-    "Arquivos/Imagens/Pasted image 20250414102042.png",
-    "Fila - Queue",
-    "Análise de dados com pandas e SQL.md",
-    "Excalidraw/Drawing 2025-04-12 10.22.23.excalidraw.md",
-    "Arquivos/Imagens/Pasted image 20250412113923.png",
-    "Arquivos/Imagens/Pasted image 20250412113106.png",
-    "Arquivos/Imagens/Pasted image 20250412111721.png",
-    "Arquivos/Imagens/Pasted image 20250412105721.png",
-    "Arquivos/Imagens/Pasted image 20250412105250.png",
-    "Classes e Métodos final.md",
-    "Excalidraw",
-    "Campanha de Tráfego para Loja de moveis.md",
-    "Polimorfismo.md",
-    "Matrizes.md",
-    "Boxing, unboxing e wrapper classes.md",
-    "Daily routine of studies.md",
-    "Beginning....md",
-    "loop for em python.md",
-    "Sem título 2.canvas",
-    "ZETTELS",
-    "Arquivos/Imagens",
-    "Arquivos",
-    "Sem título 1.canvas",
-    "Sem título.canvas",
-    "ATTACHMENTS/hmtl-css midia",
-    "ATTACHMENTS",
-    "Notas permanentes",
-    "ZETTEL/Sem título",
-    "ZETTELS"
+    "Map.md",
+    "Set.md",
+    "O Papel dos Repositories.md",
+    "Arquivos/Imagens/screenshot-primeirageração",
+    "Physical exercises (home",
+    "Sem título.base",
+    "Untitled.canvas",
+    "Untitled.base"
   ]
 }

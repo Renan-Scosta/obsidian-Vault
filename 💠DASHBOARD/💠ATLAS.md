@@ -7,30 +7,30 @@ banner_y: 0
 ---
 #### Computer Science
 - @ Fundation
-	- [[Algoritmos e Estruturas de Dados]] 
+	- [[Computer architecture]]
+	- [[Sistemas Operacionais]]
 	- [[Redes de computadores]] 
-	- [[compiladores]]
-	- [[Programação orientada a objetos (POO)]]
+	- [[Cloud Computing]] 
 
 - @ Fundation II
-	- [[Sistemas Operacionais]]
-	- [[Cloud Computing]]
+	- [[Data Structure and Algorithms leetcode]] 
+	- [[compiladores]]
+	- [[Programação orientada a objetos (POO)]]
+	- [[Data Structure and Algorithms]]
+
+- ç Cryptography
+	- 
+	- 
 	- 
 	- 
 
-- ç "Distros"
-	- [[Linux]] 
+- ~ [[Software Engineering]]
+	- [[Fundamentals Software engineering]]
+	- [[Software Architecture]] 
 	- 
-	- 
-	- 
-
-- ~ Software Engineering
 	- [[Clean code]]
-	- 
-	- 
-	- 
 
-#### Programming Language, tools and Computer Programming
+#### Programming Language, tools and Web Programming
 - & Fundamentals
 	- [[Java]]
 	- [[JavaScript]]
@@ -50,17 +50,17 @@ banner_y: 0
 	- [[HTML CSS TB]]
 
 - $ Tools II
-	- 
+	- [[Docker]]
 	- 
 	- 
 	- 
 
 #### Languages
 
-- )  English I
+- )  [[English Studies]]
 	- [[Elements]]
-	- [[To speak]]
-	- [[Negative Sentences]]
+	- 
+	- 
 	- 
 
 - ~ 
@@ -69,61 +69,24 @@ banner_y: 0
 	- 
 	- 
 
-- ! 
-	- 
-	- 
-	- 
-	- 
-
-#### Math
-- !  Matemática Básica I
-	- [[Álgebra 1]] 
-	- [[Álgebra 2]]
-	- [[Estatísticas]]
-	- 
-
-- !  Matemática Básica II
-	- [[Geometria]]
-	- [[Medidas e Trigonometria]]
-	- [[Probabilidade]] 
-	- 
-
-- ! Pré-calculo I
-	- 
-	- 
-	- 
-	- 
-
-- ! Pré-calculo II 
-	- 
-	- 
-	- 
-	- 
-
 #### Personal and Professional Development
 
-- @ Health
-	- [[Physical Health]]
-	- [[Mental Health]]
-	- [[Spiritual health]] 
+- @ Personal development
+	- [[Project Life]]
+
 
 - ;  professional career
-	- [[Beginning...]] 
+	- 
 	- 
 	- 
 	- 
 
-- ? Stacks and hardskills
-	-  [[Power BI com python]]
-	- [[Análise de dados com pandas e SQL]]
+- $ Intellectual life 
+	- [[Estudos do C.O.F]]
+	- [[Notas de Livros]]
 	- 
 	- 
 
-- $ Others skills 
-	- 
-	- 
-	- 
-	- 
 ###### Daily
 
 ```dataview

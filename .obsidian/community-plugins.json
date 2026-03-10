@@ -1,11 +1,13 @@
 [
   "obsidian-emoji-toolbar",
-  "calendar",
   "callout-manager",
   "obsidian-list-callouts",
   "obsidian-style-settings",
   "url-into-selection",
   "dataview",
   "auto-template-trigger",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "calendar",
+  "heatmap-calendar",
+  "image-converter"
 ]
