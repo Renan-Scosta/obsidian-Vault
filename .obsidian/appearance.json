@@ -5,7 +5,7 @@
     "dashboard"
   ],
   "theme": "moonstone",
-  "baseFontSize": 15,
+  "baseFontSize": 18,
   "cssTheme": "Typewriter",
   "baseFontSizeAction": true
 }

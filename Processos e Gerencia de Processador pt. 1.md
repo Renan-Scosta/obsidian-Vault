@@ -1,6 +1,6 @@
 
 **Data:** 2026-03-10
-**keyboards:** 
+**keyboards:** #syscalls #Linux #sistemas-operacionais #processos #CPU 
 **links internos:** 
 ___
 
@@ -19,7 +19,7 @@ Os primeiros sistemas permitiam a execução de apenas um programa de cada vez, 
 Essa evolução tornou necessário um controle maior na divisão de tarefas dos vários programas, resultando na noção de processo.
 
 
-> Em um **[[Sistema multiprogramável]]**, a unidade central de processamento (UCP) alterna entre processos, dedicando um pouco de seu tempo a cada um, dando a ilusão de paralelismo. Este esquema costuma ser chamado de pseudoparalelismo.
+> Em um **[[Sistema multiprogramável]]**, a unidade central de processamento (CPU) alterna entre processos, dedicando um pouco de seu tempo a cada um, dando a ilusão de paralelismo. Este esquema costuma ser chamado de pseudoparalelismo.
 
 
 Neste modelo, todo software executado no computador é organizado em **processos sequenciais**, também chamado de **processos**. O modelo de processos foi desenvolvido para tornar o paralelismo fácil de tratar.
@@ -33,7 +33,7 @@ Um processo é um programa em execução, incluindo os valores atuais dos regist
 
 ---
 
-Conceitualmente, cada processo tem sua própria UCP. Com a UCP alterando entre os processos, a velocidade que um processo executa não será uniforme.
+Conceitualmente, cada processo tem sua própria CPU. Com a CPU alterando entre os processos, a velocidade que um processo executa não será uniforme.
 
 ![[image-23.png|586x225]]
 
@@ -56,11 +56,11 @@ Quatro eventos principais fazem com que processos sejam criados:
 
 Quando um sistema operacional é incializado, uma série de processos são criados. Alguns são processos de primeiro plano (interagem com usuários), enquanto outros operam em segundo plano (background) e não estão associados a usuários em particular. Processos que ficam em segundo plano para lidar com algumas atividades, como e-mail, páginas web, noticias, impresão, são chamados de **daemons**.
 
-Além dos processos cirados durante a inicialização do sistema, outros também podem ser criados. Muitas vezes, um processo em execução emitirá chamadas de sistemas (**Syscalls**) para criar um ou mais processos para ajuda-lo em seu trabalho. Criar processos novos é particularmente útil quando o trabalho a ser feito pode ser facilmente formulado em termos de vários processos relacionados. Em um **[[multiprocessador]]**, pro exemplo, cada processo pode ser executado em uma UCP, fazedno com que a tarefa seja realizada mais rapidamente.
+Além dos processos criados durante a inicialização do sistema, outros também podem ser criados. Muitas vezes, um processo em execução emitirá chamadas de sistemas (**Syscalls**) para criar um ou mais processos para ajuda-lo em seu trabalho. Criar processos novos é particularmente útil quando o trabalho a ser feito pode ser facilmente formulado em termos de vários processos relacionados. Em um **[[multiprocessador]]**, pro exemplo, cada processo pode ser executado em uma CPU, fazendo com que a tarefa seja realizada mais rapidamente.
 
 Em sistemas interativos, os usuários podem começar um programa digitando um comando ou clicando duas vezes sobre um ícone. Cada uma dessas ações inicia um novo processo e executa o programa selecionado.
 
-Tarefas em Lote costuma ser executadas em grandes sistemas. As tarefas são submetidas ao sistema e, quando o sistemas operacional tem os recursos necessários para executar outra tarefa, cria um processo e executa a próxima tarefa a partir da fila de enetrada.
+Tarefas em Lote costuma ser executadas em grandes sistemas. As tarefas são submetidas ao sistema e, quando o sistema operacional tem os recursos necessários para executar outra tarefa, cria um processo e executa a próxima tarefa a partir da fila de enetrada.
 
 ### atenção!!
 
@@ -127,9 +127,9 @@ A imagem a seguir exemplifica a árvore de processos do meu sistema linux por me
 
 # ESTADOS DE PROCESSOS
 
-Eventualmente, uum processo que está em execução necessita parar momentaneamente sua execução por estar aguardando uma informação ainda não disponível ou porque já foi executado por muito tempo e precisa libera a UCP para outro processo.
+Eventualmente, uum processo que está em execução necessita parar momentaneamente sua execução por estar aguardando uma informação ainda não disponível ou porque já foi executado por muito tempo e precisa libera a CPU para outro processo.
 
-> Um proceeso pode transitar por diferentes estados, que dependem do sistema operacional. De forma geral, podemos dizer que um processo pode estar nos estado **novo, executando, pronto, bloqueado ou terminado**.
+> Um processo pode transitar por diferentes estados, que dependem do sistema operacional. De forma geral, podemos dizer que um processo pode estar nos estado **novo, executando, pronto, bloqueado ou terminado**.
 
 
 ![[image-35.png]]
@@ -166,10 +166,68 @@ O processo que vai para o estado **bloqueado** permanece nele até que seja conc
 ![[image-36.png]]
 
 
-Para implementar o modelo de processos, o Linux mantém uma tabela de processos, com uma entrada por processo. Esta entrada é chamada de **Blocos de controle de processo** - BCP (Process Control Block - PCB) e contém todas as informações od processo. Algumas entradas BCP são:
+Para implementar o modelo de processos, o Linux mantém uma tabela de processos, com uma entrada por processo. Esta entrada é chamada de **Blocos de controle de processo** - BCP (Process Control Block - PCB) e contém todas as informações do processo. Algumas entradas BCP são:
 
 
 ![[image-37.png]]
 
 
-O nível mais baixo do sistema operacional é o **escalonador** (também conhecido como **agendador**). Ele cuida do gerenciamento de interrupções.
+O nível mais baixo do sistema operacional é o **escalonador** (também conhecido como **agendador**). Ele cuida do gerenciamento de interrupções e dos detalhes de como iniciar e parar processos. Também costuma ser muito pequeno.
+
+Um processo passa pelas várias filas de seleção durante sua execução. Cabe ao escalonador selecionar processos destas filas e decidir qual será o próximo a ser executado.
+
+O escalonador é chamado com muita frequência. Um processo pode ser executado por apenas alguns milissegundos (ms) e ter de esperar por ter feito uma requisição de E/S. O escalonador costuma ser chamado pelo menos uma vez a cada 100ms para realizar a troca de processos. Devido ao pequeno intervalo de tempo entre as chamadas ao escalonador, sua execução deve ser bastante rápida, para que não se gaste muito tempo de CPU com trabalho de gerência.
+
+---
+# MUDANÇA DE CONTEXTO (context switching)
+
+Para transferir o controle da CPU de um processo a outro, é necessário guardar o estado do processo em execução e carregar o estado do processo a entrar em execução. Esta tarefa é cnhecida como **Context Switching** (Troca de contexto).
+
+O tempo gasto na mudança de contexto varia, dependendo de fatores como velocidade da memória, quantidade de registradores e existência de instruções especiais. Este tempo costuma variar de 1 a 1000 microssegundos.
+
+
+O contexto de um processo pode ser dividido em três elementos básicos:
+
+
+#### Contexto de Hardware:
+
+- O contexto de Hardware constitui-se basicamente do conteúdo dos registradores. No momento em que o processo perde a CPU, o sistema salva suas informações. Ele é fundamental para a implementação dos sistemas multiprogramáveis.
+
+#### Contexto de Software:
+
+- O contexto de software especifica caracteristicas do processo que influenciarão na execução de um programa. Ele define basicamente três grupos de informações sobre um processo: identificação, quotas e privilégios. A **identificação** define o processo para o sistema de forma única, através do seu PID, UID e GID. **Quotas** são os limites de cada recurso que o sistema operacional pode alocar, como número de arquivos abertos, quantidade de memória, quantidade de subprocessos que podem ser criados etc. **Privilégio** é o que o processo pode ou não fazer em relação ao sistema e outros processos.
+
+#### Espaço de Endereçamento:
+
+- O espaço de endereçamento é a area de memória do processo em que o programa será executado e a área de memória onde os dados do processo serão armazenados. Cada processo possui seu próprio espaço de endereçamento, que deve ser protegido dos demais.
+
+---
+
+# PROCESSOS NO LINUX
+
+Os Processos no Linux se comportam como processos sequenciais tradicionais. É um sistema operacional multiUsusário/multiTarefa, que permite a execução simultânea de diversos processos, que podem pertencer a diferentes usuários.
+
+Mesmo que haja apenas um usuário logado no sistema, é comum a existência de diversos daemons em execução.
+
+##### Atenção!!!
+
+>Um exemplo é o daemon de impressão, responsável por fazer a alocação da impressora e controlar o envio de trabalhos de impressão. É uma parte importante do sistema, pois permite o compartilhamento da impressora por diversos processos, possivelmente pertencentes a diferentes usuários.
+
+
+A forma usual para criação de processos no Linux ocorre por meio da chamada de sistema **fork()**, conforme você já estudou neste tema.
+
+O processo filho recebe uma cópia exata do espaço de endereçamento do processo pai. Todos os valores de variáveis e demais objetos em memória serão idênticos, porém alterações realizadas por um dos processos em qualquer conteúdo de memória não afetarão o outro.
+
+Arquivos que foram abertos antes da chamada **fork()** permanecem abertos para o processo pai e para o processo filho. As alterações realizadas por qualquer um destes processos se tornam imediatamente disponíveis para o outro. Processos são identificados por um número inteiro conhecido como PID (identificação do processo).
+
+
+Algumas chamadas de sistema do linux para o gerenciamento de procesos são:
+
+- **fork():** Cria um processo filho idêntico ao processo pai. Para o processo pai, retorna o PID do processo filho e, para o processo filho, retorna o valor 0.
+
+- **waitpid():** Espera até que o processo filho passado como parâmetro termine sua execução.
+
+- **execve():** Substitui a imagem de execução de um processo, fazendo com que, no lugar do processo corrente, seja executado o código do programa passado como parâmetro
+
+- **exit()**: Termina a execução do processo e retorna como *status* o valor passado como parâmetro.
+

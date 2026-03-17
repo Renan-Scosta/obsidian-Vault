@@ -70,9 +70,9 @@ e depois farei uma lista de conhecimentos e coisas que eu gostaria de ter intui�
 
 ### Intuições que gostaria de possuir
 
-- .
-- .
-- .
+- Funcionamento da Psique Humana.
+- O que é a Moral.
+- Sobre a Alma e sua Imortalidade.
 
 ---
  
@@ -90,8 +90,7 @@ sim.. apenas isso de exercícios, ao longo do ano irei acrescentar mais.
 
 
 ### Hábitos saudáveis indispensáveis
-
-- SEM AÇUCAR POR 6 MESES
+ 
 - 3 Litros de água por dia.
 - 6 horas por dia de sono.
 

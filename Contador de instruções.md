@@ -1,2 +1,2 @@
 
-Registrador de uma unidade central de processamento que indica qual é a posição atual na sequência de execução de um processo. Dependendo dos detalhes da arquitetura, ele armazena o endereço da instrução que está sendo executada ou o endereço da próxima instrução.
+Registrador de uma CPU que indica qual é a posição atual na sequência de execução de um processo. Dependendo dos detalhes da arquitetura, ele armazena o endereço da instrução que está sendo executada ou o endereço da próxima instrução.

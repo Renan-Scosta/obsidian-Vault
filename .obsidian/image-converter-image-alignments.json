@@ -143,50 +143,8 @@
       "wrap": true
     }
   },
-  "Processos e Gerencia de Processador.md": {
-    "f31b4f9f85c9906f9a96007ed8c205b8": {
-      "position": "center",
-      "width": "586px",
-      "height": "225px",
-      "wrap": false
-    },
-    "9c4968a2427d09d624c0596b425b1602": {
-      "position": "center",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "690c92a608e48dfbaf503d670bca8703": {
-      "position": "center",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "a1ee1c6f678172c73cf5089d30be0ccc": {
-      "position": "center",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "8a85047c208c849447892811f5e3d935": {
-      "position": "center",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "734276066588b01f9e463a1a4962cbca": {
-      "position": "right",
-      "width": "",
-      "height": "",
-      "wrap": true
-    },
-    "5f3af75699d32347aa4410ec4b131179": {
-      "position": "left",
-      "width": "666px",
-      "height": "767px",
-      "wrap": false
-    },
-    "0f052dde8d7189362ea3061a21ca0787": {
+  "Guia Definitivo sobre PROCESSOS e THREADS.md": {
+    "96f69bb9373f595d4321d70cddace576": {
       "position": "center",
       "width": "",
       "height": "",
